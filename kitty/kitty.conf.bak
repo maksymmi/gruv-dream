@@ -3,7 +3,7 @@
 # Basic conf START ->
 #
 # Font
-font_family JetBrainsMono Nerd Font
+# font_family JetBrainsMono Nerd Font
 
 # Ser cursro shape as a beam
 shell_integration no-cursor
@@ -3532,3 +3532,17 @@ map ctrl+shift+0 change_font_size all 0
 #: }}}
 
 #: }}}
+
+
+# BEGIN_KITTY_THEME
+# Gruvbox Dark Hard
+include current-theme.conf
+# END_KITTY_THEME
+
+
+# BEGIN_KITTY_FONTS
+font_family      family="BigBlueTermPlus Nerd Font Mono"
+bold_font        auto
+italic_font      auto
+bold_italic_font auto
+# END_KITTY_FONTS
